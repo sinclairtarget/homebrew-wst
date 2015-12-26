@@ -11,8 +11,4 @@ class Um < Formula
   def install
     prefix.install Dir.glob("*")
   end
-
-  test do
-    system "um list"
-  end
 end
