@@ -5,7 +5,7 @@ class Um < Formula
   sha256 '467073c5cb187ca320b012d8e54920e7759d9b7622bf035699d86d6c71ec3bd6'
 
   bottle :unneeded
-  depends_on :ruby => '2.2.0'
+  depends_on 'ruby' => '2.2.0'
   depends_on 'pandoc'
 
   def install
